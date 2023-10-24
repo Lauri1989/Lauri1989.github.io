@@ -1,0 +1,101 @@
+.coloredDiv {
+    background-color:  grey;
+}
+
+
+.coloredDiv > div {
+    background-color: aquamarine;
+    font size: 21pix;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.flexDiv {
+    display: flex;
+}
+
+.flexWrap {
+    flex-wrap: wrap;
+}
+
+.flexColumn {
+    flex-direction: column;
+    /*flex-direction: column-reverse;
+    flex-direction: rov reverse;*/
+}
+.flexJustify {
+    justify-content: center;
+}
+.flexAlign {
+    /* liigutamine alla ja ülesse*/
+    /*peab tekitama ise ise ruumi mille sees 
+    liigutada*/
+
+    height: 200px;
+    align-items: start;
+    align-items: end;
+    align-items: stretch;
+    align-items:center;
+}
+.flexAlign2 {
+    height: 200px;
+    flex-wrap: wrap;
+    /*align-content: space-around;
+    align-content: space-between;
+    align-content: start;
+    align-content: end;*/
+    align-content: center;
+}
+
+.flexChild > div {
+    flex-basis: 50px;
+}
+
+.flexChild > div:nth-child(3) {
+    flex flex-basis: 200px;
+}
+/*
+    paaris 2 4 6 even
+    paaritu - 3 7 9 odd
+    */
+
+.flexChild2 > div:nth-child(2n+1) {
+    background-color: brown;
+}
+
+.flexMedia {
+    justify-content: center;
+}
+/* Media Query */
+@media (max-width: 500px) {
+    .flexMedia {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    .flexMedia {
+        background-color: brown;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+    .flexMedia > div {
+        background-color: green;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+    .flexMedia > div {
+        background-color: rgb(138, 118, 19);
+    }
+}
+
+@media (min-width: 1100px) {
+    .flexMedia > div {
+        background-color: rgb(36, 14, 204);
+    }
+}
+/* Media Query võimaldab vaadata kasutaja
+ekraani suurust ja kohandada sisu selle järgi*/

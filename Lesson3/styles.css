@@ -1,0 +1,105 @@
+h1 {
+    /* Koodi blokk */
+    color: brown
+    /* Atribuut: väärtus */
+}
+
+/* Kõik elemendid */
+
+ h2{
+    color: rgb(red, green, blue)
+ }
+
+ /* .  tähistab Classi*/
+.heading2 {
+    color: chartreuse
+ }
+
+ /* . tähistab classi*/
+ .heading2 {
+    color: chartreuse;
+ }
+
+ /* # tähistab id */
+ #headingId {
+    color: #0000FF);
+
+ }
+ /*
+Tekst - Red
+RGB / RGBA - Red Gereen Blue Alpha 
+Redd - 255 0 0 1
+Blue - 0 0 255 1
+Green - 0 255 0 1
+Alpha - 1 -> 0 (vastutab läbipaistvuse eest).
+
+*Värvid töötavad bitisüsteemina*
+
+Hex - 16 bit värvisüsteem (0-9 ja A-F
+1 pixel koosneb kolmest ledis mis igaüks suudab teha erivärvi.
+
+0000000000000000 - 0
+0000000000000001 - 1
+0000000000000010 - 2
+0000000000000100 - 3
+0000000000000101 - 4
+
+ */
+
+ /*
+ otsitavsõna { - rea algus
+        Atribuut: Väärtus;
+        Atribuut: Väärtus;
+        Atribuut: Väärtus;
+        Atribuut: Väärtus;
+ } - tähistab rea lõppu
+
+ */
+
+ h3.customHeading {
+    color: pink;
+ }
+
+
+ div{
+    background-color: blueviolet;
+ }
+
+ .paraBox{
+        margin: 0px;
+ }
+
+ table, td, th {
+    border: 2px solid rgb(98, 0, 255);
+
+ }
+
+ table {
+    border-collapse: collapse;
+ }
+td, th {padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px ;}
+
+        .inDiv1, .inDiv2 {
+            height: 50px;
+            width: 50px;
+            background-color: blanchedalmond;
+        }
+
+        .inDiv1 {
+            position: static;
+        }
+        .inDiv2 {
+            position: relative;
+        }
+
+ /* 
+ DDos-> on lehele tehtud rünnak */
+ /* 
+    ping-> kiire kontroll kas server töötab
+    ping 8.8.8.8 - kontroll kas internet töötab
+    127.0.0.1 - oma arvuti ip
+    192.167.1.1 ruuteri ip
+ */
